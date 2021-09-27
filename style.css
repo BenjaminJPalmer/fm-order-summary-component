@@ -1,0 +1,71 @@
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%)
+    --desaturated-blue: hsl(224, 23%, 55%)
+    --dark-blue: hsl(223, 47%, 23%)
+}
+
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 450px;
+    border-radius: 10px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.wrapper {
+    background-color: white;
+}
+
+.image {
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 300px;
+}
+
+.plan-details {}
+
+.payment-button {
+    color: white;
+    font-weight: 700;
+    background-color: var(--bright-blue);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.cancel-button {
+    color: grey;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
